@@ -1,8 +1,8 @@
 package org.WalkerCC_CompSci;
 
 public class Rectangle {
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
 
 
     public Rectangle(double length, double width) {
@@ -11,10 +11,12 @@ public class Rectangle {
     }
 
     public double getLength(){
+
         return this.length;
     }
 
     public double getWidth(){
+
         return this.width;
     }
 
@@ -28,6 +30,7 @@ public class Rectangle {
 
     public double Area(){
 
+        return this.width * this.length;
     }
 
 }
